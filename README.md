@@ -56,3 +56,38 @@
 1. Домашняя работа оформляется в своём Git-репозитории в файле README.md. Выполненное задание пришлите ссылкой на .md-файл в вашем репозитории.
 2. Файл README.md должен содержать скриншоты вывода необходимых команд `kubectl`, а также скриншоты результатов.
 3. Репозиторий должен содержать тексты манифестов или ссылки на них в файле README.md.
+
+---
+
+### Решение 1
+
+* создал манифест deployment состоящего из контейнеров busybox и multitool.
+
+![image](https://github.com/user-attachments/assets/a1a2aaf3-5789-4ae6-a1f2-0bee875b334a)
+
+* создал и применил манифест для PV и PVC 
+
+![image](https://github.com/user-attachments/assets/5196f201-888b-48d6-b54b-bedcf8f36c77)
+
+![image](https://github.com/user-attachments/assets/2e476e92-8aa8-49d5-aaee-0dac97e71179)
+
+# Проверка
+
+![image](https://github.com/user-attachments/assets/140ee72e-a0d8-4b68-b114-654a03f4c73c)
+
+* проверим, что busybox пишет данные в файл каждые пять секунд, а multitool читает эти данные
+
+![image](https://github.com/user-attachments/assets/87e8de07-10d1-4f52-9e50-e8cafd70b8f0)
+
+* удалим Deployment и PVC
+
+
+
+---
+
+### Решение 2
+
+---
+
+
+
