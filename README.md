@@ -81,6 +81,16 @@
 
 * удалим Deployment и PVC
 
+![image](https://github.com/user-attachments/assets/c02d76c9-c92a-4aed-b508-7fac8915dfc1)
+
+* после удаления PVC, PV останется в состоянии Released, так как мы использовали политику Retain. Это означает, что данные на диске сохранятся, но PV больше не будет доступен для использования.
+
+![image](https://github.com/user-attachments/assets/34a01e10-4f35-453a-80de-f85211b6a33f)
+
+* проверим состояния PV и файла на ноде
+  
+![image](https://github.com/user-attachments/assets/e66d82b1-6b27-4a84-aaee-eb867aeee97c)
+
 
 
 ---
