@@ -101,7 +101,7 @@
 
 * Включил NFS-сервера в MicroK8S
 
-# sudo apt update
+### sudo apt update
 # sudo apt install nfs-kernel-server
 
 ![image](https://github.com/user-attachments/assets/2b977774-a259-4e52-b754-59fbd8791e0a)
