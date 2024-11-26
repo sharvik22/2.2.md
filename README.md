@@ -122,6 +122,26 @@
 
 ![image](https://github.com/user-attachments/assets/791b62a5-c69b-4080-adb2-2d637cc19932)
 
+* Применил изменения
+
+### sudo exportfs -a
+### sudo systemctl restart nfs-kernel-server
+
+![image](https://github.com/user-attachments/assets/2fb26d66-7f17-4236-b9ac-2e37ae7c79e1)
+
+* Создал и применил манифест nfs-storageclass.yaml с использованием NFS и описанием StorageClass
+
+![image](https://github.com/user-attachments/assets/74adc828-0762-412d-8571-8480f67dffd5)
+
+* Создал и применил манифест nfs-deployment.yaml с описанием Deployment и PersistentVolumeClaim
+
+![image](https://github.com/user-attachments/assets/6c7916c8-78c8-4df2-b4b8-90c76410f87f)
+
+  
+
+
+
+
 
 
 
