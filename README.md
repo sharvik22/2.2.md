@@ -61,6 +61,17 @@
 
 ### Решение 1
 
+![image](https://github.com/user-attachments/assets/0c770f5b-9632-42b3-a086-a4259955f9a4)
+
+
+
+
+
+
+
+
+
+
 * создал манифест deployment состоящего из контейнеров busybox и multitool.
 
 ![image](https://github.com/user-attachments/assets/64daa91b-dc1c-4ad0-9cd3-dae7fa6d4732)
@@ -88,7 +99,7 @@
 
 * проверим состояния PV и файла на ноде
   
-![image](https://github.com/user-attachments/assets/e66d82b1-6b27-4a84-aaee-eb867aeee97c)
+
 
 
 
