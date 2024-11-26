@@ -72,11 +72,9 @@
 
 # Проверка
 
-![image](https://github.com/user-attachments/assets/140ee72e-a0d8-4b68-b114-654a03f4c73c)
-
 * проверим, что busybox пишет данные в файл каждые пять секунд, а multitool читает эти данные
 
-![image](https://github.com/user-attachments/assets/87e8de07-10d1-4f52-9e50-e8cafd70b8f0)
+![image](https://github.com/user-attachments/assets/0a5e4516-9521-43e2-af24-e19bba8c5fbf)
 
 * удалим Deployment и PVC
 
