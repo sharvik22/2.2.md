@@ -107,18 +107,17 @@ sudo apt install nfs-kernel-server
 ![image](https://github.com/user-attachments/assets/2b977774-a259-4e52-b754-59fbd8791e0a)
 
 * Создал директорию, которая будет использоваться как NFS-шар
-
-sudo mkdir -p /mnt/nfs_share
-sudo chown nobody:nogroup /mnt/nfs_share
-sudo chmod 777 /mnt/nfs_share
+- sudo mkdir -p /mnt/nfs_share
+- sudo chown nobody:nogroup /mnt/nfs_share
+- sudo chmod 777 /mnt/nfs_share
 
 ![image](https://github.com/user-attachments/assets/3d10810e-af2a-47d4-a40f-38db6788394e)
 
 * Настройка NFS-сервера
 
-Добавил запись в файл /etc/exports, чтобы настроить NFS-шар
+- Добавил запись в файл /etc/exports, чтобы настроить NFS-шар
 
-echo "/mnt/nfs_share *(rw,sync,no_subtree_check)" | sudo tee -a /etc/exports
+- echo "/mnt/nfs_share *(rw,sync,no_subtree_check)" | sudo tee -a /etc/exports
 
 ![image](https://github.com/user-attachments/assets/791b62a5-c69b-4080-adb2-2d637cc19932)
 
