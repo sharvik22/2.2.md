@@ -63,9 +63,12 @@
 
 * Создал манифест Deployment, состоящего из контейнеров busybox и multitool.
 * Создал PV и PVC для подключения папки на локальной ноде, которая будет использована в поде.
-
+* multitool может читать файл, в который busybox пишет каждые пять секунд в общей директории.
 
 ![image](https://github.com/user-attachments/assets/0c770f5b-9632-42b3-a086-a4259955f9a4)
+
+
+* удалил Deployment и PVC. Продемонстрировать, что после этого произошло с PV. Пояснить, почему.
 
 ![image](https://github.com/user-attachments/assets/f4c43ea6-3ace-49f0-a4bc-ed6212645ab3)
 
