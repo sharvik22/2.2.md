@@ -63,13 +63,12 @@
 
 * создал манифест deployment состоящего из контейнеров busybox и multitool.
 
-![image](https://github.com/user-attachments/assets/a1a2aaf3-5789-4ae6-a1f2-0bee875b334a)
+![image](https://github.com/user-attachments/assets/64daa91b-dc1c-4ad0-9cd3-dae7fa6d4732)
 
 * создал и применил манифест для PV и PVC 
 
-![image](https://github.com/user-attachments/assets/5196f201-888b-48d6-b54b-bedcf8f36c77)
+![image](https://github.com/user-attachments/assets/c77753f3-9b8f-43c4-9908-91d6e8590a98)
 
-![image](https://github.com/user-attachments/assets/2e476e92-8aa8-49d5-aaee-0dac97e71179)
 
 # Проверка
 
