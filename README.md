@@ -34,7 +34,7 @@
 3. Продемонстрировать, что multitool может читать файл, в который busybox пишет каждые пять секунд в общей директории. 
 4. Удалить Deployment и PVC. Продемонстрировать, что после этого произошло с PV. Пояснить, почему.
 5. Продемонстрировать, что файл сохранился на локальном диске ноды. Удалить PV.  Продемонстрировать что произошло с файлом после удаления PV. Пояснить, почему.
-5. Предоставить манифесты, а также скриншоты или вывод необходимых команд.
+6. Предоставить манифесты, а также скриншоты или вывод необходимых команд.
 
 ------
 
@@ -63,45 +63,28 @@
 
 ![image](https://github.com/user-attachments/assets/0c770f5b-9632-42b3-a086-a4259955f9a4)
 
+![image](https://github.com/user-attachments/assets/f4c43ea6-3ace-49f0-a4bc-ed6212645ab3)
 
 
+4. Удалить Deployment и PVC. Продемонстрировать, что после этого произошло с PV. Пояснить, почему.
 
-
-
-
-
-
-
-* создал манифест deployment состоящего из контейнеров busybox и multitool.
-
-![image](https://github.com/user-attachments/assets/64daa91b-dc1c-4ad0-9cd3-dae7fa6d4732)
-
-* создал и применил манифест для PV и PVC 
-
-![image](https://github.com/user-attachments/assets/c77753f3-9b8f-43c4-9908-91d6e8590a98)
-
-
-# Проверка
-
-* проверим, что busybox пишет данные в файл каждые пять секунд, а multitool читает эти данные
-
-![image](https://github.com/user-attachments/assets/0a5e4516-9521-43e2-af24-e19bba8c5fbf)
-
-* удалим Deployment и PVC
-
-![image](https://github.com/user-attachments/assets/c02d76c9-c92a-4aed-b508-7fac8915dfc1)
-
-![image](https://github.com/user-attachments/assets/244b7d2c-adef-44d6-8181-36a7571c2585)
+![image](https://github.com/user-attachments/assets/e87607f1-0a95-4503-a516-5b1e4304873e)
 
 * после удаления PVC, PV останется в состоянии Released, так как мы использовали политику Retain. Это означает, что данные на диске сохранятся, но PV больше не будет доступен для использования.
 
-![image](https://github.com/user-attachments/assets/34a01e10-4f35-453a-80de-f85211b6a33f)
+* Продемонстрировать, что файл сохранился на локальном диске ноды.
 
-* проверим состояния PV и файла на ноде
+![image](https://github.com/user-attachments/assets/ee32f44d-3f2c-437d-964d-588d9f33d180)
+
+* Удалить PV.  Продемонстрировать что произошло с файлом после удаления PV. Пояснить, почему.
   
+![image](https://github.com/user-attachments/assets/4add7948-5d74-4045-8e32-0c95a9d891d0)
 
+Когда мы удаляем PV, Kubernetes не удаляет физические данные на узле. Это происходит потому, что PV — это просто абстракция над физическим хранилищем, и удаление PV не влияет на физические данные.
 
+Локальные тома: Если PV был локальным томом, то данные останутся в директории на узле, которая была связана с этим томом.
 
+![image](https://github.com/user-attachments/assets/d9bf9dd1-ea93-47d1-b0af-0fd734b00d49)
 
 ---
 
