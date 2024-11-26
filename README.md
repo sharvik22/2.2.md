@@ -138,6 +138,11 @@
 ![image](https://github.com/user-attachments/assets/6c7916c8-78c8-4df2-b4b8-90c76410f87f)
 
   
+* Проверка
+
+![image](https://github.com/user-attachments/assets/2d11eb87-6bfd-4e87-b80c-f6d096b06003)
+
+![image](https://github.com/user-attachments/assets/31c69053-1f5e-480d-b769-0026cee28bf2)
 
 
 
