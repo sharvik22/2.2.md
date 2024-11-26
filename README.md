@@ -96,6 +96,23 @@
 
 ### Решение 2
 
+* После первого задания всё удаленно
+
+![image](https://github.com/user-attachments/assets/d3e6b002-ebcd-494f-8451-8b358fcd2bd5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 
