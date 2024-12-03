@@ -125,7 +125,7 @@
 
 ![image](https://github.com/user-attachments/assets/2fb26d66-7f17-4236-b9ac-2e37ae7c79e1)
 
-* Создал и применил манифесты
+* Создал и применил манифесты dz2
   
 * Проверка
 
