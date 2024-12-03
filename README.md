@@ -95,10 +95,6 @@
 
 ### Решение 2
 
-* После первого задания всё удаленно
-
-![image](https://github.com/user-attachments/assets/d3e6b002-ebcd-494f-8451-8b358fcd2bd5)
-
 * Включил NFS-сервера в MicroK8S
 
 ### sudo apt update
@@ -129,20 +125,26 @@
 
 ![image](https://github.com/user-attachments/assets/2fb26d66-7f17-4236-b9ac-2e37ae7c79e1)
 
-* Создал и применил манифест nfs-storageclass.yaml с использованием NFS и описанием StorageClass
-
-![image](https://github.com/user-attachments/assets/74adc828-0762-412d-8571-8480f67dffd5)
-
-* Создал и применил манифест nfs-deployment.yaml с описанием Deployment и PersistentVolumeClaim
-
-![image](https://github.com/user-attachments/assets/6c7916c8-78c8-4df2-b4b8-90c76410f87f)
-
+* Создал и применил манифесты
   
 * Проверка
 
-![image](https://github.com/user-attachments/assets/2d11eb87-6bfd-4e87-b80c-f6d096b06003)
+![Screenshot_3](https://github.com/user-attachments/assets/edfc6637-ab0b-4cbf-9b34-6e884018451a)
 
-![image](https://github.com/user-attachments/assets/31c69053-1f5e-480d-b769-0026cee28bf2)
+* Подключился к поду создал файл, проверил его наличие
+  
+![Screenshot_2](https://github.com/user-attachments/assets/50c86885-49e4-45d1-ba02-8f3e9a383c62)
+
+
+* Подключился к k8s проверил шару NFS
+
+![image](https://github.com/user-attachments/assets/de1417f1-1313-4bdd-bf7e-b7052139d510)
+
+* Обратная проверк NFS
+
+![Screenshot_1](https://github.com/user-attachments/assets/90e55dd3-8825-4506-87e5-525d2bb4b836)
+
+![Screenshot_4](https://github.com/user-attachments/assets/61d7feb7-2216-4374-85ed-c39d165fd493)
 
 
 
