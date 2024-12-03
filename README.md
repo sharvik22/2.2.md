@@ -125,7 +125,7 @@
 
 ![image](https://github.com/user-attachments/assets/2fb26d66-7f17-4236-b9ac-2e37ae7c79e1)
 
-* Создал и применил манифесты dz2
+* Создал и применил манифесты [dz2](https://github.com/sharvik22/2.2.md/tree/2a425086edebf6395978c641d8d5e4a84dc9d959/dz2)
   
 * Проверка
 
